@@ -258,6 +258,7 @@ const Worker = {
               <span>📍 ${job.location.label}</span>
               <span>💰 ${Utils.formatPay(job.pay)}/day</span>
               <span>📅 Applied ${Utils.formatDate(a.appliedDate)}</span>
+              ${a.status === 'accepted' ? `<span style="color:var(--success)">📞 ${employer?.phone || 'Unknown'}</span>` : ''}
             </div>
             ${job.status === 'completed' && a.status === 'accepted' ? `
             <div class="app-actions" style="margin-top: 1rem; text-align: right;">

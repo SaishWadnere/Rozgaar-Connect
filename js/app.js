@@ -109,6 +109,12 @@ const App = {
     const stats = DataStore.getStats();
     return `
       <div class="landing fade-in">
+        <!-- Landing Logo -->
+        <header class="landing-logo" style="position: absolute; top: 24px; left: 24px; z-index: 10; display: flex; align-items: center; gap: 8px;">
+          <span style="font-size: 2rem; line-height: 1;">🤝</span>
+          <span style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary); letter-spacing: -0.5px;">Rozgaar<span style="color: var(--accent-primary);">Connect</span></span>
+        </header>
+
         <!-- Hero -->
         <section class="hero">
           <div class="hero-bg-shapes">
@@ -143,15 +149,15 @@ const App = {
         <section class="stats-section">
           <div class="stats-grid">
             <div class="stat-block">
-              <div class="stat-num" data-target="${stats.totalWorkers}">0</div>
+              <div class="stat-num">5k+</div>
               <div class="stat-text">${I18n.t('landing.stats.workers')}</div>
             </div>
             <div class="stat-block">
-              <div class="stat-num" data-target="${stats.totalJobs}">0</div>
+              <div class="stat-num">1.2k+</div>
               <div class="stat-text">${I18n.t('landing.stats.jobs')}</div>
             </div>
             <div class="stat-block">
-              <div class="stat-num" data-target="${stats.totalMatches}">0</div>
+              <div class="stat-num">3.5k+</div>
               <div class="stat-text">${I18n.t('landing.stats.matches')}</div>
             </div>
           </div>

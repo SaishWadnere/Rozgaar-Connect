@@ -328,6 +328,7 @@ const Employer = {
                           <span>📍 ${worker.location?.label || 'Unknown'}</span>
                           <span>💰 ${Utils.formatPay(worker.dailyRate)}/day</span>
                           <span>📅 ${worker.experience || ''}</span>
+                          ${app.status === 'accepted' ? `<span style="color:var(--success)">📞 ${worker.phone}</span>` : ''}
                         </div>
                         <div class="applicant-meta">
                           ${worker.rating > 0 ? `<span class="rating"><span class="stars">${Utils.renderStars(worker.rating)}</span> ${worker.rating}</span>` : '<span class="rating">New Worker</span>'}
