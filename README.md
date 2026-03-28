@@ -13,15 +13,11 @@ RozgaarConnect is a platform designed to bridge the gap between daily wage worke
 The project strictly follows a **Vanilla JavaScript** architecture without modern frameworks (React, Vue, etc.) or complex build steps. Data persistence is managed entirely client-side via browser `localStorage`.
 
 ### Key Design Decisions
-1. **Zero Backend Needed (MVP)**
-   - Operates fully via browser storage simulating a relational database.
-   - Designed for easy porting to a real backend (e.g., Firebase, Supabase, Node.js + MongoDB) when ready.
-2. **Modular File Structure**
+1. **Modular File Structure**
    - JavaScript code is separated by domain (`auth.js`, `worker.js`, `data.js`) rather than rendering everything in one massive script.
-3. **Glassmorphism Design System**
+2. **Glassmorphism Design System**
    - Styled using custom CSS properties with dark mode accents, blurred backdrops (`backdrop-filter: blur`), and vibrant gradients.
-4. **No Password Authentication**
-   - Authentication relies strictly on 10-digit mobile numbers mapping to user accounts in storage, mimicking OTP-based flows common in India.
+
 
 ---
 
