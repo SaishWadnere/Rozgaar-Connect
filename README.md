@@ -4,6 +4,8 @@
 
 RozgaarConnect is a platform designed to bridge the gap between daily wage workers and local employers across India. Built as a fast, lightweight Single Page Application (SPA), it provides role-specific dashboards, multilingual support, and a robust interactive trust system (ratings and reviews).
 
+**Live Demo:** [https://rozgaar-connect.vercel.app/](https://rozgaar-connect.vercel.app/)
+
 ---
 
 ## 🏗️ Architecture
