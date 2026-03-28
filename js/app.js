@@ -149,15 +149,15 @@ const App = {
         <section class="stats-section">
           <div class="stats-grid">
             <div class="stat-block">
-              <div class="stat-num">5k+</div>
+              <div class="stat-num" data-target="3450">0</div>
               <div class="stat-text">${I18n.t('landing.stats.workers')}</div>
             </div>
             <div class="stat-block">
-              <div class="stat-num">1.2k+</div>
+              <div class="stat-num" data-target="1284">0</div>
               <div class="stat-text">${I18n.t('landing.stats.jobs')}</div>
             </div>
             <div class="stat-block">
-              <div class="stat-num">3.5k+</div>
+              <div class="stat-num" data-target="2790">0</div>
               <div class="stat-text">${I18n.t('landing.stats.matches')}</div>
             </div>
           </div>

@@ -280,7 +280,7 @@ const Utils = {
     const update = () => {
       start += step;
       if (start >= target) {
-        element.textContent = target.toLocaleString('en-IN');
+        element.textContent = target.toLocaleString('en-IN') + '+';
         return;
       }
       element.textContent = Math.floor(start).toLocaleString('en-IN');
